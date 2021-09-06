@@ -1,0 +1,144 @@
+body{
+    background-image: url(Minimalist-Wallpaper-Desktop.jpg);
+background-size: cover;
+background-blend-mode: soft-light;
+background-attachment: fixed;
+
+
+}
+.search
+{
+    position: absolute;
+    background-color:#45a29e ;
+    
+width: 0%;   
+ border: none;
+ border-radius: 40px;
+ justify-content: center;
+ transition: .4s;
+
+}
+.button{
+    background-color: #66fcf1;
+    top: 50%;
+    border-color: transparent;
+    border-radius: 40px;
+    height: 50px;
+    width: 50px;
+}
+.textbox{
+    color: black;
+     position:absolute;
+     display: hidden;
+     left: 20%;
+     width: 50%;
+     height: 60%;
+     background: none;
+     border: none;
+     border-radius: 20px;
+     outline: none;
+     display: hidden;
+     transition: .4s;
+}
+.search:hover{
+width: 30%;
+}
+.textbox:hover{
+    background:;
+}
+.head-bar{
+    top: 0%;
+    margin: 0;
+    padding:0;
+    width: 50%;
+    float: left;
+height: 70px;
+justify-content: center;
+align-items: right;
+position: absolute;
+left: 50%;
+}
+.hd-clr{
+    position:absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 11%;
+    background-color: #254e58;
+    float: left;
+    top: 0%;
+    left: 0%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#lst{
+    width: 65%;
+    position: absolute;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+ul li{
+    width: 100%;
+    position: relative;
+   padding-left: 20px;
+   padding-right: 20px;
+    color: whitesmoke;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    font-size: 19px;
+    transition: .4s;
+
+}
+ul li:hover{
+    border-radius: 10px;
+    color: #88bdbc;
+}
+
+#list-lst{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    visibility: hidden;
+    position: absolute;
+    border: solid black;
+    transition: .4s;
+}
+#list-lst li{
+    right: 46%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 20px;
+    padding-right: ;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border: turquoise solid 1px;
+}
+
+h1{
+    font-size: 100px;
+    color: blanchedalmond;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: .4s;
+
+}
+h1:hover{
+    color: yellow;
+    font-size: 80px;
+     
+}
+
+
+
+
+
+
+
